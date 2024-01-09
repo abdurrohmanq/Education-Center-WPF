@@ -1,0 +1,23 @@
+﻿<Application x:Class="EduCenter.Desktop.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:EduCenter.Desktop"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!--begin::themes-->
+                <ResourceDictionary Source="/Themes/DarkTheme.xaml"/>
+                <!--end::themes-->
+
+                <!--begin::icons-->
+                <ResourceDictionary Source="/Assets/Icons/Icon.xaml"/>
+                <!--end::icons-->
+
+                <!--begin::styles-->
+                <ResourceDictionary Source="/Styles/ButtonStyles.xaml"/>
+                <!--end::styles-->
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
